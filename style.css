@@ -1,0 +1,56 @@
+body {
+    background: url(resources/moon.jpg);
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+header img {
+    border: 5px solid yellow;
+}
+
+h1 {
+    text-size-adjust: 5em;
+    border: 5px solid brown;
+    margin-right: 50%;
+}
+
+header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-between;
+    height: 5em;
+    border: 5px solid white;
+    position: relative;
+}
+
+nav {
+    border: 5px solid yellow;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    border: 5px solid green;
+}
+
+nav ul li {
+    display: inline;
+    border: 5px solid orange;
+    margin-right: 56px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
